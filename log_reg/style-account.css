@@ -1,0 +1,51 @@
+.welcome-page .container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome-page .btn-logout {
+    display: flex;
+    width: 210px;
+    height: 45px;
+    border-radius: 50px;
+    border: 2px solid #a12424;
+    background: #eca2a2;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-logout a{
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.books-cards-search {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:10px;
+}
+
+.dash-grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.no-res {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
